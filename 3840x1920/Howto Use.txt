@@ -1,0 +1,21 @@
+These instruction are for an Ubuntu machine.
+
+1.Install FFMPEG:
+sudo apt install ffmpeg
+
+2. Install Python3:
+sudo apt update && sudo apt upgrade
+
+sudo apt install python3
+sudo apt install python-is-python3
+
+3.(optional) 360Fly 4K files might need to be rotate 270 degrees. The below command will losslessly rotate the video (might take some minutes to process):
+exiftool -rotation=270 FILE.mp4
+
+4. Place Video files in the same directory as the script. Run the script:
+./processing_script.sh
+
+
+Fully processed files will be placed in the equirectangular>ready_for_davinci>blindspotted directory.The files will say "injected" on them.
+
+
