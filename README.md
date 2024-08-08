@@ -1,5 +1,5 @@
 # 360fly_toolchain
-Use FFMPEG to Automate Equirectangular Conversion of 360Fly Video Clips, while maintaining high quality
+Use FFMPEG to Automate Equirectangular Conversion of 360Fly or 360Fly 4K Video Clips, while maintaining high-quality, high bitrate
 
 ## Motivation
 My laptop is perhaps not amazing, and for whatever reason, 360Fly Director only wants to convert short videos. Long ones simply do not work. Luckily, the camera has a 4 minute video chaptering feature. Sadly, Director does not have any batch processing features. If it takes 8 minutes to convert a 4 minute video and I shoot 1 hour and 20 minutes of video, I have 2 hours and 40 minutes of sitting in front of the computer mostly waiting and occasionally pushing a couple buttons. This is extremely boring and I would like to go to bed!
