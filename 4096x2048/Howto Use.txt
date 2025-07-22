@@ -16,6 +16,6 @@ exiftool -rotation=270 FILE.mp4
 ./processing_script.sh
 
 
-Fully processed files will be placed in the equirectangular>ready_for_davinci>blindspotted directory.The files will say "injected" on them.
+Fully processed files will be placed in the equirectangular>blindspotted directory.The files will say "injected" on them.
 
 
