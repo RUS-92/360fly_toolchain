@@ -8,13 +8,6 @@ do
 done
 
 cd equirectangular
-mkdir ready_for_davinci
-for i in `ls ./*.MP4`
-do
-  ffmpeg -y -i $i -c:v libx264 -crf 0 -force_key_frames "expr:gte(t,n_forced*1)" -r 29.97 -f mp4 ./ready_for_davinci/$i
-done
-
-cd ready_for_davinci
 mkdir blindspotted
 for i in `ls ./*.MP4`
 do
